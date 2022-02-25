@@ -49,11 +49,10 @@ console.log('  try {');
 console.log('      .filter((item) => {');
         let extension = path.extname(`${_dir}${item}`);
 console.log('        let extension = path.extname(`${_dir}${item}`);');
-        if (extension == ".png" || extension == ".jpg") 
+        if (extension == ".png" || extension == ".jpg") {
 console.log('        if (extension == ".png" || extension == ".jpg") ');
           return item;
         }
-console.log('        }');
       })
       .map((i) => {
 console.log('      .map((i) => {');
